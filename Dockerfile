@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # 3Copy the built JAR file into the container
-COPY target/violetApple-docker.jar app.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 
 # 4Expose the application port
 EXPOSE 8080
